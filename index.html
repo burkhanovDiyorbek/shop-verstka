@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Северяночка</title>
+    <link rel="stylesheet" href="./src/css/index.css" />
+  </head>
+  <body>
+    <!-- ======= Navbar =======-->
+
+    <nav class="nav nav-desk">
+      <div class="container">
+        <a href="#">
+          <img src="./src/img/icons/logo.svg" alt="logo" class="logo" />
+          <img
+            src="./src/img/icons/logo-mob.svg"
+            alt="logo-mob"
+            class="logo-mob"
+          />
+        </a>
+        <div class="nav-filter">
+          <div class="catalog">
+            <img src="./src/img/icons/menu.svg" alt="menu" />
+            <p>Каталог</p>
+          </div>
+          <div class="search">
+            <input type="text" placeholder="Найти товар" />
+            <img src="./src/img/icons/search.svg" alt="search" />
+          </div>
+        </div>
+        <div class="nav-tabs">
+          <div class="likes">
+            <span class="likes-count"></span>
+            <img src="./src/img/icons/favorite.svg" alt="favorite" />
+            <p>Избранное</p>
+          </div>
+          <div class="order">
+            <img src="./src/img/icons/order.svg" alt="order" />
+            <p>Заказы</p>
+          </div>
+          <div class="basket">
+            <span class="basket-span"></span>
+            <img src="./src/img/icons/basket.svg" alt="basket" />
+            <p>Корзина</p>
+          </div>
+          <div class="user">
+            <img src="./src/img/avatar.png" alt="avatar" />
+            <p>Алексей</p>
+            <img src="./src/img/icons/arrow.svg" alt="arrow" />
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ======= Header ======= -->
+    <header class="header">
+      <img src="./src/img/header-img.png" alt="header-img" />
+      <h2>Доставка бесплатно от 1000 ₽</h2>
+    </header>
+
+    <!-- ======= Main ======= -->
+    <main class="main">
+      <!-- ======= Stock section ======= -->
+      <section class="stock-section">
+        <div class="container">
+          <div class="top">
+            <h2>Акции</h2>
+            <button class="more">
+              Все акции <img src="./src/img/icons/arrow.svg" alt="arrow" />
+            </button>
+          </div>
+          <div class="items stock-items"></div>
+        </div>
+      </section>
+
+      <!-- ======= New section ======= -->
+      <section class="new-section">
+        <div class="container">
+          <div class="top">
+            <h2>Новинки</h2>
+            <button class="more">
+              Все новинки <img src="./src/img/icons/arrow.svg" alt="arrow" />
+            </button>
+          </div>
+          <div class="items new-items"></div>
+        </div>
+      </section>
+
+      <!-- ======= Famous section ======= -->
+      <section class="famous-section">
+        <div class="container">
+          <div class="top">
+            <h2>Покупали раньше</h2>
+            <button class="more">
+              Все покупки <img src="./src/img/icons/arrow.svg" alt="arrow" />
+            </button>
+          </div>
+          <div class="items famous-items"></div>
+        </div>
+      </section>
+
+      <!-- ======= Special Section======= -->
+      <section class="special-section">
+        <div class="container">
+          <div class="top">
+            <h2>Специальные предложения</h2>
+          </div>
+          <div class="items">
+            <div class="item">
+              <div class="item-description">
+                <h2>Оформите карту «Северяночка»</h2>
+                <p>И получайте бонусы при покупке в магазинах и на сайте</p>
+              </div>
+              <div class="item-image">
+                <img
+                  src="./src/img/special-card-one.png"
+                  alt="special card image"
+                />
+              </div>
+            </div>
+            <div class="item">
+              <div class="item-description">
+                <h2>Покупайте акционные товары</h2>
+                <p>И получайте вдвое больше бонусов</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======= Maps Section ======= -->
+      <section class="maps-section">
+        <div class="container">
+          <div class="top">
+            <h2>Наши магазины</h2>
+          </div>
+          <div class="btns">
+            <button class="btn btn-clicked" value="0">п.Щельяюр</button>
+            <button class="btn" value="1">д.Вертеп</button>
+            <button class="btn" value="2">с.Краснобор</button>
+            <button class="btn" value="3">д.Диюр</button>
+          </div>
+          <div class="maps">
+            <!-- <iframe
+              src="https://yandex.uz/map-widget/v1/?ll=50.835894%2C61.669228&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1MzAwMDA2NBIr0KDQvtGB0YHQuNGPLCDQoNC10YHQv9GD0LHQu9C40LrQsCDQmtC-0LzQuCIKDZ8oW0IVPUCAQg%2C%2C&z=16.47"
+              class="shelyur"
+            ></iframe> -->
+          </div>
+        </div>
+      </section>
+
+      <!-- ======= Article Section ======= -->
+      <section class="article-section">
+        <div class="container">
+          <div class="top">
+            <h2>Статьи</h2>
+            <button class="more">
+              Все статьи <img src="./src/img/icons/arrow.svg" alt="arrow" />
+            </button>
+          </div>
+          <div class="items article-items"></div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ======= footer ======= -->
+    <footer class="footer">
+      <div class="container">
+        <div>
+          <div class="footer-links">
+            <img src="./src/img/icons/footer-logo.svg" alt="footer-logo" />
+            <ul>
+              <li>О компании</li>
+              <li>Контакты</li>
+              <li>Вакансии</li>
+              <li>Статьи</li>
+              <li>Политика обработки персональных данных</li>
+            </ul>
+          </div>
+          <div class="footer-others">
+            <div class="socials">
+              <a href="https://www.instagram.com/diyorbek_coder/">
+                <img src="./src/img/icons/instagram-logo.svg" alt="instagram" />
+              </a>
+              <a href="https://vk.com/">
+                <img src="./src/img/icons/vk-logo.svg" alt="vk" />
+              </a>
+              <a href="https://www.facebook.com/">
+                <img src="./src/img/icons/facebook-logo.svg" alt="facebook" />
+              </a>
+              <a href="https://ok.ru/">
+                <img src="./src/img/icons/ok-logo.svg" alt="ok" />
+              </a>
+            </div>
+            <div class="phone">
+              <div>
+                <img src="./src/img/icons/phone.svg" alt="phone" />
+                <a href="tel:+88007773333">8 800 777 33 33</a>
+              </div>
+              <div class="author">
+                <p>Дизайн</p>
+                <img src="./src/img/icons/author-logo.svg" alt="author" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="author">
+          <ul class="mob-ul">
+            <li>О компании</li>
+            <li>Контакты</li>
+            <li>Вакансии</li>
+            <li>Статьи</li>
+            <li>Политика обработки персональных данных</li>
+          </ul>
+          <p>Дизайн</p>
+          <img src="./src/img/icons/author-logo.svg" alt="author" />
+        </div>
+      </div>
+    </footer>
+
+    <!-- navbar mobile -->
+    <nav class="nav nav-mobile-tabs">
+      <div class="container">
+        <div class="catalog-mob">
+          <img src="./src/img/icons/mob-menu.svg" alt="menu" />
+          <p>Каталог</p>
+        </div>
+        <div class="likes">
+          <span class="likes-count"></span>
+          <img src="./src/img/icons/favorite.svg" alt="favorite" />
+          <p>Избранное</p>
+        </div>
+        <div class="order">
+          <img src="./src/img/icons/order.svg" alt="order" />
+          <p>Заказы</p>
+        </div>
+        <div class="basket">
+          <span class="basket-span basket-span-mob"></span>
+          <img src="./src/img/icons/basket.svg" alt="basket" />
+          <p>Корзина</p>
+        </div>
+        <div class="user">
+          <img src="./src/img/avatar.png" alt="avatar" />
+          <p>Алексей</p>
+          <img src="./src/img/icons/arrow.svg" alt="arrow" />
+        </div>
+      </div>
+    </nav>
+
+    <!-- modal -->
+    <div class="modal-container">
+      <div class="modal">
+        <button class="modal-close_btn">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M18.3536 5.64645C18.5488 5.84171 18.5488 6.15829 18.3536 6.35355L6.35355 18.3536C6.15829 18.5488 5.84171 18.5488 5.64645 18.3536C5.45118 18.1583 5.45118 17.8417 5.64645 17.6464L17.6464 5.64645C17.8417 5.45118 18.1583 5.45118 18.3536 5.64645Z"
+              fill="#414141"
+            />
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M5.64645 5.64645C5.84171 5.45118 6.15829 5.45118 6.35355 5.64645L18.3536 17.6464C18.5488 17.8417 18.5488 18.1583 18.3536 18.3536C18.1583 18.5488 17.8417 18.5488 17.6464 18.3536L5.64645 6.35355C5.45118 6.15829 5.45118 5.84171 5.64645 5.64645Z"
+              fill="#414141"
+            />
+          </svg>
+        </button>
+        <h2>Вход</h2>
+        <form>
+          <label>
+            <p>Телефон</p>
+            <input type="text" name="" id="phone" />
+            <span></span>
+          </label>
+          <button>Вход</button>
+        </form>
+        <div>
+          <button>Регистрация</button>
+          <a href="#">Забыли пароль?</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- scripts -->
+    <script src="https://unpkg.com/imask"></script>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
